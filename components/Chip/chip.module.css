@@ -1,0 +1,18 @@
+.chip {
+  display: flex;
+  background-color: #000;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.chip:hover {
+  opacity: 0.85
+}
+
+.chip > a {
+  padding: 8px 16px;
+  color: #eee;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
